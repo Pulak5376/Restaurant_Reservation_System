@@ -13,6 +13,7 @@ class _ManagerDashboardState extends State<ManagerDashboard> {
     {'id': '1', 'name': 'Pizza', 'price': 12.99},
     {'id': '2', 'name': 'Burger', 'price': 8.99},
     {'id': '3', 'name': 'Pasta', 'price': 10.99},
+    {'id': '4', 'name': 'Sub_Burger', 'price': 15.00},
   ];
 
   void _addFoodItem() {
