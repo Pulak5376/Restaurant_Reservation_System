@@ -50,7 +50,7 @@ class _RegisterPageState extends State<RegisterPage> {
 
       ScaffoldMessenger.of(
         context,
-      ).showSnackBar(const SnackBar(content: Text('Registration successful!')));
+      ).showSnackBar(const SnackBar(content: Text('Registration_successful!')));
 
       Navigator.pushReplacement(
         context,
@@ -58,7 +58,7 @@ class _RegisterPageState extends State<RegisterPage> {
       );
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Registration failed: ${e.toString()}')),
+        SnackBar(content: Text('Registration_failed: ${e.toString()}')),
       );
     } finally {
       setState(() => _isLoading = false);
