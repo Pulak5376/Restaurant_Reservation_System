@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class FoodTile extends StatelessWidget {
+class FoodTitle extends StatelessWidget {
   final String foodId;
   final String foodName;
   final double foodPrice;
   final Function(String, String, double) onEdit;
 
-  const FoodTile({
+  const FoodTitle({
     Key? key,
     required this.foodId,
     required this.foodName,
