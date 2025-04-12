@@ -13,7 +13,7 @@ class OrderSummaryPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Order Summary')),
+      appBar: AppBar(title: const Text('Order_Summary')),
       body: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Column(
@@ -55,7 +55,7 @@ class OrderSummaryPage extends StatelessWidget {
                 ).showSnackBar(const SnackBar(content: Text('Order Placed!')));
                 Navigator.pop(context); // Go back to the User Dashboard
               },
-              child: const Text('Confirm Order'),
+              child: const Text('Confirm_Order'),
             ),
           ],
         ),
